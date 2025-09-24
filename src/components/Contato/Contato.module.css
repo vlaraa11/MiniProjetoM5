@@ -1,0 +1,28 @@
+.contato {
+  padding: 4rem 8%;
+  text-align: center;
+  background: #1c1c29;
+  border-radius: 15px;
+  margin: 3rem auto;
+  color: #fff;
+}
+
+.contato h2 {
+  margin-bottom: 1rem;
+  color: #d291ff;
+}
+
+.info {
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+
+.info a {
+  color: #ff3cac;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
