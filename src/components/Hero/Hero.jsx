@@ -16,12 +16,12 @@ export default function Hero() {
           Vitória <br /> Lara
         </h1>
         <h2 className={styles.role}>
-          Fundamentos de Desenvolvimento Full Stack
+        Desenvolvedora Full Stack
         </h2>
         <p className={styles.description}>
-          Me chamo Vitória, tenho 17 anos e estou completando o Ensino Médio. 
+          Eu me chamo Vitória, tenho 17 anos e estou completando o Ensino Médio. 
           Sou muito detalhista e curiosa também, a área tecnológica me encanta 
-          e me faz querer aprender cada vez mais.
+          e me faz querer aprender cada vez mais. Vamos embarcar nessa comigo?
         </p>
 
         <div className={styles.buttons}>
@@ -36,7 +36,7 @@ export default function Hero() {
 
       <div className={styles.imageWrapper}>
         <img
-          src="/foto.png" // 👉 coloque sua imagem na pasta public com esse nome
+          src="/minhafoto.png.jpeg"
           alt="Foto de Vitória Lara"
           className={styles.image}
         />
