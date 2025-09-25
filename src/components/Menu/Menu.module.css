@@ -13,6 +13,9 @@
 }
 
 .menu {
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
   display: flex;
   list-style: none;
   gap: 16px;
@@ -20,6 +23,20 @@
   padding: 0;
 }
 
+.menu li::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background: #268acc;
+  transition: width 0.3s;
+}
+
+.menu li:hover::after{
+  width: 100%;}
+  
 .logo {
   font-weight: bold;
   font-size: 1.2rem;
