@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8rem 8% 4rem; /* aumentei o topo pra não ficar escondido atrás do menu */
+  color: #fff;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 4rem 8%;
   color: #fff;
 }

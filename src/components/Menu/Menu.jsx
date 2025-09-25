@@ -5,10 +5,10 @@ export default function Menu(){
     <header className={styles.containerMenu}>
       <p className={styles.logo}>👩🏻‍💻 Vitória Lara</p>
       <ul className={styles.menu}>
-        <li>Sobre mim</li>
-        <li>Meus projetos</li>
-        <li>Contato</li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#projetos">Meus projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </header>
-  )}
-  
+  )
+}

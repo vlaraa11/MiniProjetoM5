@@ -9,7 +9,7 @@ export default function Hero() {
   }
 
   return (
-    <section className={styles.hero}>
+    <section id="sobre" className={styles.hero}>
       <div className={styles.content}>
         <p className={styles.subtitle}>OLÁ, EU SOU 👋</p>
         <h1 className={styles.title}>

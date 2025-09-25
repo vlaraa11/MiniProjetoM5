@@ -1,12 +1,26 @@
-.containerMenu{
-  background-color: transparent;
+.containerMenu {
+  background-color: rgba(205, 245, 247, 0.541); /* fundo semi-transparente */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed; /* fixa no topo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1000; /* fica acima do resto */
+  backdrop-filter: blur(8px); /* efeito vidro */
 }
 
-.menu{
+.menu {
   display: flex;
   list-style: none;
   gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
