@@ -11,7 +11,7 @@
 }
 
 .subtitle {
-  color: #d291ff;
+  color: #fdffff;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -39,8 +39,8 @@
 }
 
 .primaryBtn {
-  background: #ff3cac;
-  background: linear-gradient(90deg, #784ba0, #ff3cac);
+  background: #ffffff;
+  background: linear-gradient(90deg, #3ce6e6, #71e9f0);
   color: white;
   padding: 0.8rem 1.6rem;
   border: none;
@@ -55,18 +55,18 @@
 }
 
 .secondaryBtn {
-  border: 2px solid #d291ff;
+  border: 2px solid #91f8ff;
   padding: 0.8rem 1.6rem;
   border-radius: 10px;
-  color: #d291ff;
+  color: #ffffff;
   font-weight: 600;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .secondaryBtn:hover {
-  background: #d291ff;
-  color: #fff;
+  background: #fcfcfc;
+  color: #ffffff;
 }
 
 .imageWrapper {
@@ -106,8 +106,8 @@
 
 .closeBtn {
   margin-top: 1rem;
-  background: #ff3cac;
-  color: #fff;
+  background: #3cfff5;
+  color: #ffffff;
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;

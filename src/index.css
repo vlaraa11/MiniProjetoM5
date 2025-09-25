@@ -14,7 +14,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f0f1a, #1a0f1a);
+  background: linear-gradient(135deg, #00ffea, #00bbff);
   color: white;
 }
 
@@ -26,11 +26,11 @@ h1 {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #214742;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #74faff;
   }
   button {
     background-color: #f9f9f9;

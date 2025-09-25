@@ -10,5 +10,5 @@ export default function Menu(){
         <li>Contato</li>
       </ul>
     </header>
-  )
-}
+  )}
+  

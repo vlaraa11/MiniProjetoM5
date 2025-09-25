@@ -4,12 +4,12 @@
   background: #1c1c29;
   border-radius: 15px;
   margin: 3rem auto;
-  color: #fff;
+  color: #ffffff;
 }
 
 .contato h2 {
   margin-bottom: 1rem;
-  color: #d291ff;
+  color: #ffffff;
 }
 
 .info {
@@ -18,7 +18,7 @@
 }
 
 .info a {
-  color: #ff3cac;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
